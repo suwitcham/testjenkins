@@ -1,6 +1,5 @@
 pipeline {
-  
-  agent {
+   agent {
     kubernetes {
       // yamlFile 'container.yaml'
       yaml '''

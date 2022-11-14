@@ -9,13 +9,13 @@ pipeline {
         }
         stage('Test') {
             steps {
-                /* sh '/var/lib/jenkins/tioscript/upimage.sh' */
+                sh './upimage.sh'
                 sh 'echo stage test'
             }
         }
         stage('Validate') {
             steps {
-                sh '/var/lib/jenkins/tioscript/CS-status.sh'   
+                sh './CS-status.sh'   
             }
         }
     }

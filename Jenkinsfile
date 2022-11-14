@@ -1,5 +1,5 @@
 pipeline {
-  //parameters {
+  // parameters {
   //  string(name: 'WORK_FOLDER', defaultValue: 'container', description: 'Working folder')
   //  string(name: 'IMAGE_NAME', defaultValue: 'my_wordpress', description: 'Image name')
   //  string(name: 'IMPORT_REPO_NAME', defaultValue: 'gcr.io/wordpress-in-gks', description: 'Registry Name')

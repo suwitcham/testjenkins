@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                # sh '/var/lib/jenkins/tioscript/upimage.sh'
+                /* sh '/var/lib/jenkins/tioscript/upimage.sh' */
             }
         }
         stage('Validate') {
